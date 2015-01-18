@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: hcipaper.aux
+The style file: ../acm-sigchi.bst
+Database file #1: ../sample.bib
+You've used 7 entries,
+            2243 wiz_defined-function locations,
+            566 strings with 4945 characters,
+and the built_in function-call counts, 2053 in all, are:
+= -- 191
+> -- 72
+< -- 0
++ -- 31
+- -- 24
+* -- 122
+:= -- 310
+add.period$ -- 19
+call.type$ -- 7
+change.case$ -- 34
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 94
+empty$ -- 204
+format.name$ -- 24
+if$ -- 460
+int.to.chr$ -- 0
+int.to.str$ -- 7
+missing$ -- 6
+newline$ -- 36
+num.names$ -- 10
+pop$ -- 58
+preamble$ -- 1
+purify$ -- 28
+quote$ -- 0
+skip$ -- 64
+stack$ -- 0
+substring$ -- 103
+swap$ -- 19
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 26
+warning$ -- 0
+while$ -- 19
+width$ -- 8
+write$ -- 69

@@ -47,7 +47,7 @@
 \hypersetup{
 pdftitle={SIGCHI Conference Proceedings Format},
 pdfauthor={LaTeX},
-pdfkeywords={SIGCHI, proceedings, archival format},
+pdfkeywords={HCI, Cooperative, Spaceship, Game},
 bookmarksnumbered,
 pdfstartview={FitH},
 colorlinks,
@@ -65,152 +65,81 @@ breaklinks=true,
 % End of preamble. Here it comes the document.
 \begin{document}
 
-\title{SIGCHI Conference Proceedings Format}
+\title{CSG: A communicative Game for Interactive Floors}
 
-\numberofauthors{3}
+\numberofauthors{1}
 \author{
-  \alignauthor 1st Author Name\\
-    \affaddr{Affiliation}\\
-    \affaddr{Address}\\
-    \email{e-mail address}\\
-    \affaddr{Optional phone number}
-  \alignauthor 2nd Author Name\\
-    \affaddr{Affiliation}\\
-    \affaddr{Address}\\
-    \email{e-mail address}\\
-    \affaddr{Optional phone number}    
-  \alignauthor 3rd Author Name\\
-    \affaddr{Affiliation}\\
-    \affaddr{Address}\\
-    \email{e-mail address}\\
-    \affaddr{Optional phone number}
+  \alignauthor Daniel Birnstiel, Patrick Kuhn, Fabian Paul, Lennard Wolf\\
+      \medskip
+    \affaddr{Hasso Plattner Institute}\\
+    \affaddr{Prof.-Dr.-Helmert-Str. 2-3}\\
+    \affaddr{14482 Potsdam, Germany}\\
+    \email{$ \{ $ daniel.birnstiel, patrick.kuhn, fabian.paul, lennard.wolf $ \} $@student.hpi.de }\\
 }
 
 \maketitle
 
 \begin{abstract}
-In this paper we describe the formatting requirements for
-SIGCHI Conference Proceedings, and this sample file
-offers recommendations on writing for the worldwide
-SIGCHI readership. Please review this document even if
-you have submitted to SIGCHI conferences before, some
-format details have changed relative to previous years.
+
+After looking upon the possibilities of interactive floors and taking into account the immense demand for, and market of video games today, we developed \textit{CSG}, or \textit {Cooperative Spaceship Game}. It is meant as a prototype for communicative, interactive floor based games and demonstrates, how playing games at home can once again involve movement of the whole body - and not just the thumbs.
+
+The players' goal is the joint reaching of levels by performing tasks that are created at random. These tasks may involve actions which the player, who was given said task, may not be able to carry out. Thus he/she has to tell their partner(s) to execute it.
+
 \end{abstract}
 
 \keywords{
-	Guides; instructions; author's kit; conference publications;
-	keywords should be separated by a semi-colon. \newline
-	\textcolor{red}{Optional section to be included in your final version, 
-  but strongly encouraged.}
+	Cooperative Spaceship Game; Communication; Interactive Floors; Body Movement
 }
 
-\category{H.5.m.}{Information Interfaces and Presentation (e.g. HCI)}{Miscellaneous}
-
-See: \url{http://www.acm.org/about/class/1998/}
-for more information and the full list of ACM classifiers
-and descriptors. \newline
-\textcolor{red}{Optional section to be included in your final version, 
-but strongly encouraged. On the submission page only the classifiers’ 
-letter-number combination will need to be entered.}
 
 \section{Introduction}
 
-This format is to be used for submissions that are
-published in the conference proceedings.  We wish to give
-this volume a consistent, high-quality appearance. We
-therefore ask that authors follow some simple
-guidelines. In essence, you should format your paper
-exactly like this document. The easiest way to do this is
-simply to download a template from the conference web
-site, and replace the content with your own material.
+With the advent of the \textit {Internet of Things} and thus the rising digital Interaction with everything around us, floors will soon become intelligent entities just like our phones are today. 
 
-\section{Page Size and Columns}
+But next to all the productive things we can now do with our devices, we also want to integrate them into our leisure time. Just like touch screens revolutionized the way we play games, interactive floors will again push the boundaries of the way we think about enjoying ourselves through games.
 
-On each page your material (not including the page number) should fit
-within a rectangle of 18 x 23.5 cm (7 x 9.25 in.), centered on a US
-letter page, beginning 1.9 cm (.75 in.) from the top of the page, with
-a .85 cm (.33 in.) space between two 8.4 cm (3.3 in.) columns.  Right
-margins should be justified, not ragged. Beware, especially when using
-this template on a Macintosh, Word can change these dimensions in
-unexpected ways. Please be sure that your PDF is US letter and not
-A4. If your PDF or paper are formatted for A4, the submission will be
-returned to you to fix.
+To understand what players want from a game, we interviewed a professional Game Designer, a Game Design Lecturer as well as a few gamers - both casual and somewhat professional. We learned that nowadays players have a lower attention span and thus want to understand the game right away. This is why we started out contemplating different mini games and at some point even considered a mini game collection. But what we saw as the main advantage of an interactive floor based game was the fact that the player might not be alone, but rather be in the same room with others and cooperate. 
 
-\section{Typeset Text}
-
-Prepare your submissions on a word processor or typesetter.  Please
-note that page layout may change slightly depending upon the printer
-you have specified.  \LaTeX\ sometimes will create overfull lines
-that extend into columns.  To attempt to combat this, the .cls
-file has a command, {\textbackslash}sloppy, that essentially asks
-\LaTeX\ to prefer underfull lines with extra whitespace.  For more
-details on this, and info on how to control it more finely, check out
-{\url{http://www.economics.utoronto.ca/osborne/latex/PMAKEUP.HTM}}.
-
-\subsection{Title and Authors}
-
-Your paper's title, authors and affiliations should run across the
-full width of the page in a single column 17.8 cm (7 in.) wide.  The
-title should be in Helvetica 18-point bold; use Arial if Helvetica is
-not available.  Authors' names should be in Times Roman 12-point bold,
-and affiliations in Times Roman 12-point.  For more than three authors,
-you may have to place some address information in a footnote, or in a named
-section at the end of your paper. Please use full international addresses and
-telephone dialing prefixes.  Leave one 10-pt line of white space below the last
-line of affiliations.
-
-\subsection{Abstract and Keywords}
-
-Every submission should begin with an abstract of about 150 words,
-followed by a set of keywords. The abstract and keywords should be
-placed in the left column of the first page under the left half of the
-title. The abstract should be a concise statement of the problem,
-approach and conclusions of the work described.  It should clearly
-state the paper's contribution to the field of HCI.
-
-The first set of keywords will be used to index the paper in the
-proceedings. The second set are used to catalogue the paper in the ACM
-Digital Library. The latter are entries from the ACM Classification
-System~\cite{acm_categories}.  In general, it should only be necessary
-to pick one or more of the H5 subcategories, see
-\url{http://www.acm.org/class/1998/ccs98.html}
-
-\subsection{Normal or Body Text}
-
-Please use a 10-point Times Roman font or, if this is unavailable,
-another proportional font with serifs, as close as possible in
-appearance to Times Roman 10-point. The Press 10-point font available
-to users of Script is a good substitute for Times Roman. If Times
-Roman is not available, try the font named Computer Modern Roman. On a
-Macintosh, use the font named Times and not Times New Roman. Please
-use sans-serif or non-proportional fonts only for special purposes,
-such as headings or source code text.
-
-\subsection{First Page Copyright Notice}
-
-Leave 3 cm (1.25 in.) of blank space for the copyright notice at the
-bottom of the left column of the first page. In this template a
-floating text box will automatically generate the required space. Note
-however that the text box is anchored to the \textbf{ABSTRACT}
-heading, so if that heading is deleted the text box will disappear as
-well.  You can replace the default copyright notice by uncommenting
-the {\textbackslash}toappear block at the beginning of the document
-and inserting your own text, for example, for versions under review.
+This is why we chose to concentrate on three main goals for our project: \textbf{Communication}, \textbf{Cooperation} and \textbf{Discoverability}.
 
 
-\subsection{Subsequent Pages}
-
-On pages beyond the first, start at the top of the page and continue
-in double-column format.  The two columns on the last page should be
-of equal length.
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.9\columnwidth]{Figure1}
-\caption{With Caption Below, be sure to have a good resolution image
-  (see item D within the preparation instructions).}
+\caption{Here you can see the beaming area.}
 \label{fig:figure1}
 \end{figure}
+
+\section{The Concept of the game}
+
+Hier wird das spielprinzip erklärt
+
+\section{Walkthrough}
+
+Hier kommt die Introduction zum Walktrhough
+
+\subsection{The Beaming Area}
+
+Was passiert in der beaming area?
+
+\subsection{The Gaming Area}
+
+Was passiert in der gaming area?
+
+\section{Design}
+
+
+\subsection{Design Concept 1}
+
+Warum ist unser Design das beste für den job?
+
+
+\subsection{Design Concept 2}
+
+Warum ist unser Design immer noch das beste für den job?
+
+
 
 \subsection{References and Citations}
 
