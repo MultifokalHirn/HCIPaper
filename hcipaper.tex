@@ -23,7 +23,7 @@
 \usepackage{times}    % comment if you want LaTeX's default font
 \usepackage{url}      % llt: nicely formatted URLs
 \usepackage{subcaption}
-
+\usepackage{float}
 % llt: Define a global style for URLs, rather that the default one
 \makeatletter
 \def\url@leostyle{%
@@ -119,7 +119,7 @@ This is why we chose to concentrate on three main goals for our project: \textbf
 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.9\columnwidth]{walkthrough/totale2}
+\includegraphics[width=0.99\columnwidth]{walkthrough/totale2}
 \caption{The Game in action.}
 \label{fig:figure1}
 \end{figure}
@@ -134,18 +134,17 @@ The game is set on a spaceship, which is on the edge of destruction and the play
 
 Since these widgets are not always close to the player who got a new task, he will often have to tell his partner(s) to do it for him instead. But a task is only active for a limited amount of time and if a task is not performed in time, it's game over. \newline
 After a certain number of tasks the players will get to a new and harder level where all controls will change and the game goes on. Winning as such is \textit{not} possible, the motivation is rather staying alive for as long as possible.
-\vspace{2mm}
 \section{Walkthrough}
 \vspace{1mm}
-In our sample scenario two users A and B want to play a game of \textit{Cooperative Spaceship Rescue} with the goal to reach the second Level. As the users enter the floor, they will start out in the \textit{Beaming Area}, as shown in figure?.
+In our sample scenario two users A and B want to play a game of \textit{Cooperative Spaceship Rescue} with the goal to reach the second Level. As the users enter the floor, they will start out in the \textit{Beaming Area}, as shown in Figure 8.
 
 \subsection{The Beaming Area}
 \vspace{3mm}
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.9\columnwidth]{beamingArea}
-\caption{Here you can see the Beaming Area.}
+\includegraphics[width=0.8\columnwidth]{beamingArea}
+\caption{The Beaming Area from the bird's perspective.}
 \label{fig:beamingArea}
 \end{figure}
 
@@ -154,43 +153,63 @@ In our sample scenario two users A and B want to play a game of \textit{Cooperat
 \begin{enumerate}
 \item Users walk to the \textit{Beaming platforms} and want to start our game.
 \item To start the game they have to enter one the circle while the label in mid is rotating \textit{Ready?}-Buttons appear and will change the to a \textit{Ready!} after tapping on them.
-
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.9\columnwidth]{beamingArea}
-\caption{Here you can see the Beaming Area.}
-\label{fig:beamingArea}
+\includegraphics[width=0.9\columnwidth]{walkthrough/klein/beamingarea1+2a}
+\caption{Steps 1 and 2a}
+\label{fig:gamingArea}
 \end{figure}
 
 \item The first player to step on a \textit{Beaming platform} gets a \textit{Start Game}-Button when everybody has tapped on their \textit{Ready?}-Button.
 \item That player can now start the Game by tapping on the \textit{Start Game}-Button. After it the screen will change to our \textit{Gaming Area}.
 \end{enumerate}
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\columnwidth]{walkthrough/klein/beamingarea2b+3}
+\caption{Steps 2b and 3}
+\label{fig:gamingArea}
+\end{figure}
 
 
 
 
 \subsection{The Gaming Area}
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.9\columnwidth]{gamingArea}
-\caption{Here you can see the Gaming Area.}
-\label{fig:gamingArea}
-\end{figure}
 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\columnwidth]{walkthrough/gamingarea}
+\caption{The Gaming Area from the bird's perspective.}
+\label{fig:beamingArea}
+\end{figure}
 \vspace{2mm}
 \begin{enumerate}
 \item Players A and B mention the two highlighted task panels behind them and turn around.
 \item There, each player reads his instructions and sees their timer counting down.
-\item Player A gets task X (see example Task in figureX).
-\item Player B gets task Y (see example Task in figureY).
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.99\columnwidth]{walkthrough/klein/gamingarea3+4}
+\caption{Steps 3 and 4}
+\label{fig:gamingArea}
+\end{figure}
+
+\item Player A gets task X (for example "Activate Flux Cannon" as shown in Figure 6).
+\item Player B gets task Y (for example "Disable Endo-Sensors" as shown in Figure 6).
 \item A and B try to perform their task by communicating or finding their widget.
 \item After a task has been performed before the corresponding timer has counted to zero, a new task is be generated and the timer is reset.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.99\columnwidth]{walkthrough/klein/gamingarea5+6}
+\caption{Steps 5 and 6}
+\label{fig:gamingArea}
+\end{figure}
 \item Repeat steps 3. to 6. until a new Level is generated and the players have reached their goal.
 \end{enumerate}
-
-
 
 
 \section{Design}
@@ -209,9 +228,9 @@ Initially we thought about having the users register to the system with an on-fl
 
 We decided to create areas in which the users have to stand to start the game. The paper prototyping and the heuristic evaluation showed that this was easily understandable, especially because of the conceptual model of the \textit{beaming area} of spaceships from \textit{Star Trek}. 
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.9\columnwidth]{beamingArea}
+\includegraphics[width=0.99\columnwidth]{walkthrough/totale1}
 \caption{Two users logging in through the \textit{Beaming Platforms}}
 \label{fig:beamingArea}
 \end{figure}
@@ -223,9 +242,9 @@ Originally we came up with the idea of having different roles for each user, so 
 
 For these reasons we replaced the concept of roles with more specific tasks.
 
-\subsection{Explaining System Status with real world}
+\subsection{Explaining System Status with Conceptual Models}
 \vspace{1mm}
-As we started designing our game, we used menus and text fields to let the user start a game or change a level. This approach seemed to work out quite well in paper prototyping, since the change of level for example would anyway require some time to reconstruct the floor. But as we started testing our application on the floor the change of system, especially the switching between two scenes did not appear natural. 
+As we started designing our game, we used menus and text fields to let the user start a game or change a level. This approach seemed to work out quite well in paper prototyping, since the change of level for example would require some time to reconstruct the floor anyway. But as we started testing our application on the floor the change of status, especially the switching between two levels did not appear natural. 
 
 As a result we added areas with a ladder texture to explain the switch to the next level. Moreover we use beaming platforms as login mechanism instead of a introduction dialog to have a consistent appearence in our whole game (hier will ich sagen, dass wir alles was der User sieht durch unsere Welt erklären statt durch Dialoge; wenn jemandem ne bessere Formulierung einfällt gerne austauschen)
 
