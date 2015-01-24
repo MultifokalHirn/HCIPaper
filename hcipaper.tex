@@ -22,6 +22,7 @@
 \usepackage{graphics} % for EPS, load graphicx instead
 \usepackage{times}    % comment if you want LaTeX's default font
 \usepackage{url}      % llt: nicely formatted URLs
+\usepackage{subcaption}
 
 % llt: Define a global style for URLs, rather that the default one
 \makeatletter
@@ -65,7 +66,7 @@ breaklinks=true,
 % End of preamble. Here it comes the document.
 \begin{document}
 
-\title{CSG: A communicative Game for Interactive Floors}
+\title{Cooperative Spaceship Rescue: A communicative Game for Interactive Floors}
 
 \numberofauthors{1}
 \author{
@@ -81,7 +82,7 @@ breaklinks=true,
 
 \begin{abstract}
 \vspace{1mm}
-After looking upon the possibilities of interactive floors and taking into account the immense demand for video games today, we developed \textit{CSG}, or \textit{Cooperative Spaceship Game}. \textit{CSG} is designed as a fun prototype for communicative, interactive floor based games and demonstrates, how playing games at home can once again involve moving the entire body
+After looking upon the possibilities of interactive floors and taking into account the immense demand for video games today, we developed \textit{Cooperative Spaceship Rescue} or \textit{CSR}. \textit{CSR} is designed as a fun prototype for communicative, interactive floor based games and demonstrates, how playing games at home can once again involve moving the entire body
 again - and not just your thumbs.
 
 
@@ -118,7 +119,7 @@ This is why we chose to concentrate on three main goals for our project: \textbf
 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.9\columnwidth]{Figure1}
+\includegraphics[width=0.9\columnwidth]{walkthrough/totale2}
 \caption{The Game in action.}
 \label{fig:figure1}
 \end{figure}
@@ -133,13 +134,13 @@ The game is set on a spaceship, which is on the edge of destruction and the play
 
 Since these widgets are not always close to the player who got a new task, he will often have to tell his partner(s) to do it for him instead. But a task is only active for a limited amount of time and if a task is not performed in time, it's game over. \newline
 After a certain number of tasks the players will get to a new and harder level where all controls will change and the game goes on. Winning as such is \textit{not} possible, the motivation is rather staying alive for as long as possible.
-
+\vspace{2mm}
 \section{Walkthrough}
 \vspace{1mm}
-In our sample scenario two users A and B want to play a game of GAMENAME with the goal to reach the second Level. As the users enter the floor, they will start out in the \textit{Beaming Area}, as shown in figure?.
+In our sample scenario two users A and B want to play a game of \textit{Cooperative Spaceship Rescue} with the goal to reach the second Level. As the users enter the floor, they will start out in the \textit{Beaming Area}, as shown in figure?.
 
 \subsection{The Beaming Area}
-\vspace{2mm}
+\vspace{3mm}
 
 \begin{figure}[h]
 \centering
@@ -148,24 +149,22 @@ In our sample scenario two users A and B want to play a game of GAMENAME with th
 \label{fig:beamingArea}
 \end{figure}
 
+
+
 \begin{enumerate}
 \item Users walk to the \textit{Beaming platforms} and want to start our game.
 \item To start the game they have to enter one the circle while the label in mid is rotating \textit{Ready?}-Buttons appear and will change the to a \textit{Ready!} after tapping on them.
-\item The first player to step on a \textit{Beaming platform} gets a \textit{Start Game}-Button when everybody has tapped on their \textit{Ready?}-Button.
-\item That player can now start the Game by tapping on the \textit{Start Game}-Button. After it the screen will change to our \textit{Gaming Area}.
-\end{enumerate}
-
-
-
- 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.9\columnwidth]{walkthrough/beaming area1.png}
-\caption{A user stepping on a Beaming Platform.}
-\label{fig:beamingPlatform}
+\includegraphics[width=0.9\columnwidth]{beamingArea}
+\caption{Here you can see the Beaming Area.}
+\label{fig:beamingArea}
 \end{figure}
 
+\item The first player to step on a \textit{Beaming platform} gets a \textit{Start Game}-Button when everybody has tapped on their \textit{Ready?}-Button.
+\item That player can now start the Game by tapping on the \textit{Start Game}-Button. After it the screen will change to our \textit{Gaming Area}.
+\end{enumerate}
 
 
 
@@ -195,7 +194,8 @@ In our sample scenario two users A and B want to play a game of GAMENAME with th
 
 
 \section{Design}
-
+\vspace{1mm}
+In this section we will discuss the design choices we made to achieve our goals for \textbf{Communication}, \textbf{Cooperation} and \textbf{Discoverability}.
 
 \subsection{Cooperation as a Paradigm}
 \vspace{1mm}
@@ -212,7 +212,7 @@ We decided to create areas in which the users have to stand to start the game. T
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.9\columnwidth]{beamingArea}
-\caption{Two users loging in through the \textit{Beaming Platforms}}
+\caption{Two users logging in through the \textit{Beaming Platforms}}
 \label{fig:beamingArea}
 \end{figure}
 
@@ -238,8 +238,10 @@ To solve this problem we introduced a distinct exit button, which can be pressed
 \section{Conclusion}
 \vspace{1mm}
 
-Creating a game for a completely new Platform turned out to be a bigger challenge than first anticipated, since most classic gaming concepts were not applicable anymore. But talking to both gamers and the professionals in the field gave us great insights into what makes a good game. These insights made us create GAAAMMMETTTIIITTTLLLLEEEE, a game that we think of as really showing the possibilities for communication and involving of the whole body in Interactive Floor based games. \newline
-GAAAMMMETTTIIITTTLLLLEEEE may not be a perfectly rounded, market-ready game, but can rather be seen as a fun prototype demonstrating the aforementioned possibilities.
+Creating a game for a completely new Platform turned out to be a bigger challenge than first anticipated, since most classic gaming concepts were not applicable anymore. But talking to both gamers and the professionals in the field gave us great insights into what makes a good game. These insights made us create \textit{Cooperative Spaceship Rescue}, a game that we think of as really showing the possibilities for communication and involving of the whole body in Interactive Floor based games. \newline
+
+
+\textit{Cooperative Spaceship Rescue} may not be a perfectly rounded, market-ready game, but can rather be seen as a fun prototype demonstrating the aforementioned possibilities.
 
 
 \balance
