@@ -119,9 +119,13 @@ This is why we chose to concentrate on three main goals for our project: \textbf
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.9\columnwidth]{Figure1}
-\caption{Here you can see the beaming area.}
+\caption{The Game in action.}
 \label{fig:figure1}
 \end{figure}
+\pagebreak
+
+
+
 
 \section{The Concept of the Game}
 \vspace{1mm}
@@ -136,6 +140,14 @@ In our sample scenario two users A and B want to play a game of GAMENAME with th
 
 \subsection{The Beaming Area}
 \vspace{2mm}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\columnwidth]{beamingArea}
+\caption{Here you can see the Beaming Area.}
+\label{fig:beamingArea}
+\end{figure}
+
 \begin{enumerate}
 \item Users walk to the \textit{Beaming platforms} and want to start our game.
 \item To start the game they have to enter one the circle while the label in mid is rotating \textit{Ready?}-Buttons appear and will change the to a \textit{Ready!} after tapping on them.
@@ -144,33 +156,30 @@ In our sample scenario two users A and B want to play a game of GAMENAME with th
 \end{enumerate}
 
 
-\begin{figure}[!h]
-\centering
-\includegraphics[width=0.9\columnwidth]{beamingArea}
-\caption{Here you can see the Beaming Area.}
-\label{fig:beamingArea}
-\end{figure}
+
  
 
-\begin{figure}[!h]
+\begin{figure}[h]
 \centering
-\includegraphics[width=0.9\columnwidth]{beamingPlatform}
+\includegraphics[width=0.9\columnwidth]{walkthrough/beaming area1.png}
 \caption{A user stepping on a Beaming Platform.}
 \label{fig:beamingPlatform}
 \end{figure}
 
 
 
-\begin{figure}[!h]
+
+
+
+\subsection{The Gaming Area}
+
+\begin{figure}[h]
 \centering
 \includegraphics[width=0.9\columnwidth]{gamingArea}
 \caption{Here you can see the Gaming Area.}
 \label{fig:gamingArea}
 \end{figure}
 
-
-
-\subsection{The Gaming Area}
 \vspace{2mm}
 \begin{enumerate}
 \item Players A and B mention the two highlighted task panels behind them and turn around.
@@ -188,41 +197,48 @@ In our sample scenario two users A and B want to play a game of GAMENAME with th
 \section{Design}
 
 
-\subsection{Cooperation as a Principle}
+\subsection{Cooperation as a Paradigm}
 \vspace{1mm}
-Our first idea was to create an application, which consists of various minigames that can be successively played against each other. The problem with this approach was, as Willi Scheibel pointed out in our contextual inquiry, that it doesn't allow users to interact with each other. 
+Our first idea was to create an application which would consist of various \textit{minigames}, which could be successively played against each other. The problem with this approach was, as Willy Scheibel pointed out in our contextual inquiry, that this approach would only allow users to interact with each other to certain degree. Playing by taking turns would not actually require the other player to be there, thus the whole concept of being together in a room vanishes. 
 
-So in our new design we integrate cooperation as game principle by adding tasks which have to be performed by both users. Moreover we use the spatial distribution of our tasks to encourage interaction between the players, rather than having them perform only their own tasks. 
+Therefore we wanted to integrate cooperation as a paradigm for our game design by creating goals which would have to be performed by \textit{both} users. Furthermore we use the spatial distribution of our tasks-subjects to encourage interaction between the players, rather than having them only perform their own tasks. 
  
-\subsection{Standing in defined area as login mechanism}
+\subsection{Standing in a defined Area as Login Mechanism}
 \vspace{1mm}
-Initially we thought about having the user register to the system with an on-floor keyboard and then log in every time he enters the floor. We encountered in paper prototyping that it is really tedious for the user to type in his name, since tapping on small buttons requires precision and having the buttons spread makes them hard to use because it would be nessecary to walk over them to get to the destination. 
+Initially we thought about having the users register to the system with an on-floor keyboard and then log in every time they enter the floor. During paper prototyping we encountered that it is really tedious for the user to type in his name, since tapping on small buttons requires precision and having the buttons spread makes them hard to use because it would be necessary to walk over them to get to the destination. 
 
-We decided to use an predefined area in which the user has to stand to start the game. The paper prototyping and the heuristic evaluation showed that this was easily recognizable. 
-***Here maybe be a picture of the beaming area*** 
+We decided to create areas in which the users have to stand to start the game. The paper prototyping and the heuristic evaluation showed that this was easily understandable, especially because of the conceptual model of the \textit{beaming area} of spaceships from \textit{Star Trek}. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\columnwidth]{beamingArea}
+\caption{Two users loging in through the \textit{Beaming Platforms}}
+\label{fig:beamingArea}
+\end{figure}
 
 
-\subsection{Avoiding roles as game mechanic}
+\subsection{Avoiding roles as a Game Mechanic}
 \vspace{1mm}
-Originally we came up with the idea of having different roles who are able to carry out certain tasks. For example role of the captain was assigned to the first person entering a beaming platform and was able to start the game. In our paper prototyping, most of the testers asked about the meaning of the roles. Explaining the concept at this time in the game would require adding a tutorial and make the game harder to discover. 
+Originally we came up with the idea of having different roles for each user, so that each would only be able to carry out certain tasks. As an example, the role of the \textit{captain} was assigned to the first person entering a beaming platform. That user was then the one able to start the game and they would also have special rights to certain widgets and so on. In our paper prototyping process, most of the testers asked about the meaning of those roles and having to explain it to them in more than a sentence showed how this concept was hardly discoverable and would just \textit{mode the user in}.
 
-In our final design we replaced the concept of roles by making tasks more specific.   
+For these reasons we replaced the concept of roles with more specific tasks.
 
-\subsection{Explaining system status with real world}
+\subsection{Explaining System Status with real world}
 \vspace{1mm}
-As we started designing our game, we used menus and text fields to let the user start a game or change a level. This Approached seemed to work out quite well in paper prototyping, since the change of level for example would anyway require some time to reconstruct the floor. But as we started testing our application on the floor the change of system, especially the switching between two scenes did not appear natural. 
+As we started designing our game, we used menus and text fields to let the user start a game or change a level. This approach seemed to work out quite well in paper prototyping, since the change of level for example would anyway require some time to reconstruct the floor. But as we started testing our application on the floor the change of system, especially the switching between two scenes did not appear natural. 
 
 As a result we added areas with a ladder texture to explain the switch to the next level. Moreover we use beaming platforms as login mechanism instead of a introduction dialog to have a consistent appearence in our whole game (hier will ich sagen, dass wir alles was der User sieht durch unsere Welt erklären statt durch Dialoge; wenn jemandem ne bessere Formulierung einfällt gerne austauschen)
 
-\subsection{Having a distinct exit control}
+\subsection{Having a distinct Exit Button}
 \vspace{1mm}
-When faced with the problem how the game should be terminated, our first solution was to let the user simply walk off the floor and wait till the timer runs out. While heuristic evaluation, almost all of our testers asked ous how they can end the game. This showed us that having no visual representation to use some functionality of the system is not very discoverable. 
+When we faced the issue of how the game should be terminated, our initial solution was to just let the users walk off the floor and wait until the timer would run out. But during the heuristic evaluation, almost all of our testers asked us how they could end the game. This showed us that having no visual representation to use some functionality of the system is not at all discoverable. 
 
 To solve this problem we introduced a distinct exit button, which can be pressed to ensure a controlled ending of the game. This is important because now the user has full control over the system at any time. 
 
 \section{Conclusion}
 \vspace{1mm}
-Creating a game for a completely new Platform turned out as a bigger challenge than first anticipated, since most classic gaming concepts were not applicable anymore. But talking to both gamers and the professionals in the field gave us great insights into what makes a good game. These insights made us create GAAAMMMETTTIIITTTLLLLEEEE, a game that we think of as really showing the possibilities for communication and involving of the whole body in Interactive Floor based games. \newline
+
+Creating a game for a completely new Platform turned out to be a bigger challenge than first anticipated, since most classic gaming concepts were not applicable anymore. But talking to both gamers and the professionals in the field gave us great insights into what makes a good game. These insights made us create GAAAMMMETTTIIITTTLLLLEEEE, a game that we think of as really showing the possibilities for communication and involving of the whole body in Interactive Floor based games. \newline
 GAAAMMMETTTIIITTTLLLLEEEE may not be a perfectly rounded, market-ready game, but can rather be seen as a fun prototype demonstrating the aforementioned possibilities.
 
 
