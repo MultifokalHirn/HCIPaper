@@ -1,13 +1,12 @@
 \BOOKMARK [1][-]{section*.4}{Introduction}{}% 1
-\BOOKMARK [1][-]{section*.6}{The Concept of the Game}{}% 2
-\BOOKMARK [1][-]{section*.7}{Walkthrough}{}% 3
-\BOOKMARK [2][-]{section*.8}{The Beaming Area}{section*.7}% 4
-\BOOKMARK [2][-]{section*.12}{The Gaming Area}{section*.7}% 5
-\BOOKMARK [1][-]{section*.16}{Design}{}% 6
-\BOOKMARK [2][-]{section*.17}{Cooperation as a Paradigm}{section*.16}% 7
-\BOOKMARK [2][-]{section*.18}{Standing in a defined Area as Login Mechanism}{section*.16}% 8
-\BOOKMARK [2][-]{section*.20}{Explaining System Status with Conceptual Models}{section*.16}% 9
-\BOOKMARK [2][-]{section*.21}{Seperating the floor into two areas to enforce communication}{section*.16}% 10
-\BOOKMARK [2][-]{section*.22}{Avoiding roles as a Game Mechanic}{section*.16}% 11
-\BOOKMARK [2][-]{section*.23}{Having a distinct Exit Button}{section*.16}% 12
-\BOOKMARK [1][-]{section*.24}{Conclusion}{}% 13
+\BOOKMARK [1][-]{section*.6}{Walkthrough}{}% 2
+\BOOKMARK [2][-]{section*.7}{The Beaming Area}{section*.6}% 3
+\BOOKMARK [2][-]{section*.11}{The Gaming Area}{section*.6}% 4
+\BOOKMARK [1][-]{section*.15}{Design}{}% 5
+\BOOKMARK [2][-]{section*.16}{Cooperation as a Paradigm}{section*.15}% 6
+\BOOKMARK [2][-]{section*.17}{Separating the floor into two areas to enforce communication}{section*.15}% 7
+\BOOKMARK [2][-]{section*.19}{Avoiding roles as a Game Mechanic}{section*.15}% 8
+\BOOKMARK [2][-]{section*.20}{Explaining System Status with Conceptual Models}{section*.15}% 9
+\BOOKMARK [2][-]{section*.22}{Standing in a defined Area as Login Mechanism}{section*.15}% 10
+\BOOKMARK [2][-]{section*.24}{Having a distinct Exit Button}{section*.15}% 11
+\BOOKMARK [1][-]{section*.27}{Conclusion}{}% 12

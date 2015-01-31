@@ -96,47 +96,44 @@ The two to three players' goal is the joint reaching of levels by performing tas
 
 \section{Introduction}
 \vspace{1mm}
-With the advent of the \textit{Internet of Things} and thus the rising digital Interaction with everything around us, floors will soon become intelligent entities just like our phones are today. 
+With the advent of the \textit{Internet of Things} and thus the rising digital interaction with everything around us, floors will soon become intelligent entities just like our phones are today. 
 
 But next to all the productive things we can now do with our devices, we also want to integrate them into our leisure time. Just like touch screens revolutionised the way we play games, interactive floors will again push the boundaries of the way we think about enjoying ourselves through games.
 
-To understand what players want from a game, we interviewed J\"org Friedrich, a professional Game Designer at AAA Game Development Studio \textit{Yager}, Willy Scheibel, a Game Development Lecturer at \textit{HPI}, as well as Theresa Zobel, a representative of our target group, the casual gamer. From these interviews we learned that:
+To understand what players want from a game, we interviewed J\"org Friedrich, a professional game designer at AAA game development studio \textit{Yager}, Willy Scheibel, a game development lecturer at \textit{HPI}, as well as Theresa Zobel, a representative of our target group, the casual gamer. From these interviews we learned that:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.99\columnwidth]{walkthrough/totale2}
+\caption{The Game in action.}
+\label{fig:figure1}
+\end{figure}
+
 \begin{itemize}
-\item The Game mechanics are the very most important part in the success of a game and should mostly be based on already proven concepts.
-\item Today's players have a low attention span and thus want to understand the game right away.
-\item Gamers always want to be challenged but not to the point where they get frustrated.
+\item The game mechanics are the very most important part in the success of a game and should mostly be based on already proven concepts.
+\item Today's players don not want to read complex manuals and thus want to understand the game right away.
+\item Gamers always want to be challenged, but not to the point where they get frustrated.
 \item Next to the challenge, gamers also need a purpose for their actions. This might involve a story or the immersion in a virtual world.
 \item Pleasing graphics are nice to have but not overly important, especially not photorealism.
-\item Most Gamers today like to play Cooperative Games rather than Single Player Titles.
+\item According to sales stats, most gamers today like to play cooperative games rather than single player titles.
 \end{itemize}
 
-
+\vspace{4mm}
 This is why we started out contemplating different mini games and at some point even considered creating a mini game collection. But what we saw as the main advantage of an interactive floor based game was the fact that the player might not be alone, but rather be in the same room with others and cooperate. 
 
 This is why we chose to concentrate on three main goals for our project: \textbf{Communication}, \textbf{Cooperation} and \textbf{Discoverability}.
 
 
 
-\begin{figure}[!h]
-\centering
-\includegraphics[width=0.99\columnwidth]{walkthrough/totale2}
-\caption{The Game in action.}
-\label{fig:figure1}
-\end{figure}
 \pagebreak
 
-
-
-
-\subsection{The Concept of the Game}
-\vspace{1mm}
 The game is set on a spaceship, which is on the edge of destruction and the players on earth are the astronauts to save the ship. They have to get on the beaming platforms to beam onto the spaceship, where they get their tasks. These tasks involve flipping switches and pressing buttons, which make up the control bridge of the ship. 
 
-Since these widgets are not always close to the player who got a new task, he will often have to tell his partner(s) to do it for him instead. But a task is only active for a limited amount of time and if a task is not performed in time, it's game over. \newline
-After a certain number of tasks the players will get to a new and harder level where all controls will change and the game goes on. Winning as such is \textit{not} possible, the motivation is rather staying alive for as long as possible.
+Since these widgets are not always part of the player's control stack, he will often have to tell his partner to do it for him instead. But a task is only active for a limited amount of time and if a task is not performed in time, it's game over. \newline
+After a certain number of finished tasks, ladders will appear that lead the players to a new and harder level, where all controls will change and the game goes on. Winning as such is \textit{not} possible, the motivation is rather staying alive for  \textit{as long as possible}.
 \section{Walkthrough}
 \vspace{1mm}
-In our sample scenario two users A and B want to play a game of \textit{Cooperative Spaceship Rescue} with the goal to reach the second Level. As the users enter the floor, they will start out in the \textit{Beaming Area}, as shown in Figure 8.
+In our sample scenario two users A and B want to play a game of \textit{SpaceRescue} with the goal to reach the second Level. As the users enter the floor, they will start out in the \textit{Beaming Area}, as shown in Figure 8.
 
 \subsection{The Beaming Area}
 \vspace{3mm}
@@ -222,35 +219,55 @@ Our first idea was to create an application which would consist of various \text
 
 Therefore we wanted to integrate cooperation as a paradigm for our game design, by assigning tasks to users, who cannot accomplish them.
 
-\subsection{Seperating the floor into two areas to enforce communication}
+\subsection{Separating the floor into two areas to enforce communication}
 \vspace{1mm}
-One of our basic game principles is communication between the users. To avoid the users from trying to accomplish the task by themselves rather than telling the other teammate what to do, we seperated the floor with the graphic of rifts, where you can see the background of stars. When testing the design with users, we observed that some of them simply jumped over the rifts, because they perceived them as normal obstacles. To prevent this from happening we added yellow do not cross tapes on both sides of the rifts. This ensured that both users only operate their own controls.
-
-\subsection{Standing in a defined Area as Login Mechanism}
-\vspace{1mm}
-Initially we thought about having the users register to the system with an on-floor keyboard and then log in every time they enter the floor. During paper prototyping we encountered that it is really tedious for the user to type in his name, since tapping on small buttons requires precision and having the buttons spread makes them hard to use because it would be necessary to walk over them to get to the destination. 
-
-We decided to create areas in which the users have to stand to start the game. The paper prototyping and the heuristic evaluation showed that this was easily understandable, especially because of the conceptual model of the \textit{beaming area} of spaceships from \textit{Star Trek}. 
+One of our basic game principles is communication between the users. To avoid the users from trying to accomplish the task by themselves rather than telling the other teammate what to do, we separated the floor with the graphic of rifts, where one can see the background of stars. When testing the design with users, we observed that some of them simply jumped over the rifts, because they perceived them as normal obstacles. To prevent this from happening, we added yellow \textit{"do not cross"}-tapes on both sides of the rifts. This ensures, that each user only operates his own controls.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.99\columnwidth]{walkthrough/totale1}
-\caption{Two users logging in through the \textit{Beaming Platforms}}
-\label{fig:beamingArea}
+\includegraphics[width=0.99\columnwidth]{dangerarea}
+\caption{The "danger area" which seperates the two control rooms}
+\label{fig:gamingArea}
 \end{figure}
-
 
 \subsection{Avoiding roles as a Game Mechanic}
 \vspace{1mm}
+
+TOOOOOOOOODOOOOOOOOOOO
+
 Originally we came up with the idea of having different roles for each user, so that each would only be able to carry out certain tasks. As an example, the role of the \textit{captain} was assigned to the first person entering a beaming platform. That user was then the one able to start the game and they would also have special rights to certain widgets and so on. In our paper prototyping process, most of the testers asked about the meaning of those roles and having to explain it to them in more than a sentence showed how this concept was hardly discoverable and would just \textit{mode the user in}.
 
 For these reasons we replaced the concept of roles with more specific tasks.
 
 \subsection{Explaining System Status with Conceptual Models}
 \vspace{1mm}
-As we started designing our game, we used menus and text fields to let the user start a game or change a level. This approach seemed to work out quite well in paper prototyping, since the change of level for example would require some time to reconstruct the floor anyway. But as we started testing our application on the floor the change of status, especially the switching between two levels did not appear natural. 
+As we started designing our game, we used menus and text fields to let the user start a game or change a level. This approach seemed to work out quite well in paper prototyping, since the change of level for example would require some time to reconstruct the floor anyway. But as we started testing our application on the floor the change of status, especially the switching between two levels did not appear natural. As a result we had to the change the core structure of our design to more modular areas:
+TOOOOOOOOODOOOOOOOOOOO
 
-As a result we added areas with a ladder texture to explain the switch to the next level. Moreover we use beaming platforms as login mechanism instead of a introduction dialog to have a consistent appearence in our whole game (hier will ich sagen, dass wir alles was der User sieht durch unsere Welt erklären statt durch Dialoge; wenn jemandem ne bessere Formulierung einfällt gerne austauschen)
+added areas with a ladder texture to explain the switch to the next level. Moreover we use beaming platforms as login mechanism instead of a introduction dialog to have a consistent appearence in our whole game
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\columnwidth]{ladder}
+\caption{The message explaining the status with a ladder next to it}
+\label{fig:gamingArea}
+\end{figure}
+
+
+
+\subsection{Standing in a defined Area as Login Mechanism}
+\vspace{1mm}
+In typical PC or console games users log in by typing their user name and select start in the menu. Initially we thought about applying this concept to the floor by having the users register to the system with an on-floor keyboard and then letting them log in every time they enter the floor. During \textit{paper prototyping} we encountered the issue that it is really tedious for the users to type their names, since tapping on small buttons requires precision and having the buttons spread makes them hard to use because it would be necessary to walk over them to get to the destination. 
+
+We decided to create areas in which the users have to stand to start the game. The paper prototyping and the heuristic evaluation showed that this was easily understandable, especially because of the conceptual model of the \textit{beaming area} of spaceships from \textit{Star Trek}. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.99\columnwidth]{loginarea}
+\caption{Two users logging in through the \textit{Beaming Platforms}}
+\label{fig:beamingArea}
+\end{figure}
+
 
 \subsection{Having a distinct Exit Button}
 \vspace{1mm}
@@ -258,13 +275,29 @@ When we faced the issue of how the game should be terminated, our initial soluti
 
 To solve this problem we introduced a distinct exit button, which can be pressed to ensure a controlled ending of the game. This is important because now the user has full control over the system at any time. 
 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.99\columnwidth]{ejectbutton}
+\caption{On the left the concept of the message if all users have been \textit{Eject} button that pauses the game}
+\label{fig:gamingArea}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.99\columnwidth]{ejecting}
+\caption{After pushing the \textit{Eject} button, a siren starts off}
+\label{fig:gamingArea}
+\end{figure}
+
 \section{Conclusion}
 \vspace{1mm}
 
-Creating a game for a completely new Platform turned out to be a bigger challenge than first anticipated, since most classic gaming concepts were not applicable anymore. But talking to both gamers and the professionals in the field gave us great insights into what makes a good game. These insights made us create \textit{Cooperative Spaceship Rescue}, a game that we think of as really showing the possibilities for communication and involving of the whole body in Interactive Floor based games. \newline
+Creating a game for a completely new Platform turned out to be a bigger challenge than first anticipated, since most classic gaming concepts were not applicable anymore. But talking to both gamers and the professionals in the field gave us great insights into what makes a good game. These insights made us create \textit{SpaceRescue}, a game that we think of as really showing the possibilities for communication and involving of the whole body in Interactive Floor based games. \newline
 
 
-\textit{Cooperative Spaceship Rescue} may not be a perfectly rounded, market-ready game, but can rather be seen as a fun prototype demonstrating the aforementioned possibilities.
+
 
 
 \balance
