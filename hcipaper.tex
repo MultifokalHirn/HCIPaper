@@ -136,7 +136,7 @@ Since these widgets are not always close to the player who got a new task, he wi
 After a certain number of tasks the players will get to a new and harder level where all controls will change and the game goes on. Winning as such is \textit{not} possible, the motivation is rather staying alive for as long as possible.
 \section{Walkthrough}
 \vspace{1mm}
-In our sample scenario two users A and B want to play a game of \textit{Cooperative Spaceship Rescue} with the goal to reach the second Level. As the users enter the floor, they will start out in the \textit{Beaming Area}, as shown in Figure 8.
+In our sample scenario two users Anne and Bernd want to play a game of \textit{Cooperative Spaceship Rescue} with the goal to reach the second Level and abort the game with pushing on eject. As the users enter the floor, they will start out in the \textit{Beaming Area}, as shown in Figure 8.
 
 \subsection{The Beaming Area}
 \vspace{3mm}
@@ -149,10 +149,15 @@ In our sample scenario two users A and B want to play a game of \textit{Cooperat
 \end{figure}
 
 
+At the beginning both of them see a rotating text in the centre of the floor. The text introduce Bernd and Anna to choose one platform. After taking their position in front of Anna and Bernd appear two buttons with a ready label. These buttons suggest the players to tap. Immediately after pushing the buttons they will change into ??label screens??. Bernd can now start the game with a start button. "Start" signifies a screen changing event. Bernd and Anna 
 
-\begin{enumerate}
-\item Users walk to the \textit{Beaming platforms} and want to start our game.
-\item To start the game they have to enter one the circle while the label in mid is rotating \textit{Ready?}-Buttons appear and will change the to a \textit{Ready!} after tapping on them.
+
+
+
+
+
+
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\columnwidth]{walkthrough/klein/beamingarea1+2a}
@@ -160,9 +165,6 @@ In our sample scenario two users A and B want to play a game of \textit{Cooperat
 \label{fig:gamingArea}
 \end{figure}
 
-\item The first player to step on a \textit{Beaming platform} gets a \textit{Start Game}-Button when everybody has tapped on their \textit{Ready?}-Button.
-\item That player can now start the Game by tapping on the \textit{Start Game}-Button. After it the screen will change to our \textit{Gaming Area}.
-\end{enumerate}
 
 \begin{figure}[H]
 \centering
@@ -185,9 +187,7 @@ In our sample scenario two users A and B want to play a game of \textit{Cooperat
 \label{fig:beamingArea}
 \end{figure}
 \vspace{2mm}
-\begin{enumerate}
-\item Players A and B mention the two highlighted task panels behind them and turn around.
-\item There, each player reads his instructions and sees their timer counting down.
+
 
 
 \begin{figure}[H]
@@ -197,10 +197,7 @@ In our sample scenario two users A and B want to play a game of \textit{Cooperat
 \label{fig:gamingArea}
 \end{figure}
 
-\item Player A gets task X (for example "Activate Flux Cannon" as shown in Figure 6).
-\item Player B gets task Y (for example "Disable Endo-Sensors" as shown in Figure 6).
-\item A and B try to perform their task by communicating or finding their widget.
-\item After a task has been performed before the corresponding timer has counted to zero, a new task is be generated and the timer is reset.
+Anna and Bernd mention behind each is a highlighted task panel so they turn around and read their tasks. During this a timer which is placed in the lower right corner of the panel starts ticking. Anna has the task "Activate the flux cannon" but she can not see anything which will match it on her side. She has to communicate with Bernd to find the widgets for completing the task. After a task has been performed before the corresponding timer has countered to zero, a new task will be generated and timer is reset. Bernd and Anna complete some tasks which will lead them to the next level where Anna push the eject button to finish and abort the game.
 
 \begin{figure}[H]
 \centering
@@ -208,8 +205,6 @@ In our sample scenario two users A and B want to play a game of \textit{Cooperat
 \caption{Steps 5 and 6}
 \label{fig:gamingArea}
 \end{figure}
-\item Repeat steps 3. to 6. until a new Level is generated and the players have reached their goal.
-\end{enumerate}
 
 
 \section{Design}
