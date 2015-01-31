@@ -221,7 +221,11 @@ In this section we will discuss the design choices we made to achieve our goals 
 Our first idea was to create an application which would consist of various \textit{minigames}, which could be successively played against each other. The problem with this approach was, as Willy Scheibel pointed out in our contextual inquiry, that this approach would only allow users to interact with each other to certain degree. Playing by taking turns would not actually require the other player to be there, thus the whole concept of being together in a room vanishes. 
 
 Therefore we wanted to integrate cooperation as a paradigm for our game design, by assigning tasks to users, who cannot accomplish them.
- 
+
+\subsection{Seperating the floor into two areas to enforce communication}
+\vspace{1mm}
+One of our basic game principles is communication between the users. To avoid the users from trying to accomplish the task by themselves rather than telling the other teammate what to do, we seperated the floor with the graphic of rifts, where you can see the background of stars. When testing the design with users, we observed that some of them simply jumped over the rifts, because they perceived them as normal obstacles. To prevent this from happening we added yellow do not cross tapes on both sides of the rifts. This ensured that both users only operate their own controls.
+
 \subsection{Standing in a defined Area as Login Mechanism}
 \vspace{1mm}
 Initially we thought about having the users register to the system with an on-floor keyboard and then log in every time they enter the floor. During paper prototyping we encountered that it is really tedious for the user to type in his name, since tapping on small buttons requires precision and having the buttons spread makes them hard to use because it would be necessary to walk over them to get to the destination. 
