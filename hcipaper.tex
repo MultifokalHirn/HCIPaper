@@ -220,11 +220,11 @@ In this section we will discuss the design choices we made to achieve our goals 
 \vspace{1mm}
 Our first idea was to create an application which would consist of various \textit{minigames}, which could be successively played against each other. The problem with this approach was, as Willy Scheibel pointed out in our contextual inquiry, that this approach would only allow users to interact with each other to certain degree. Playing by taking turns would not actually require the other player to be there, thus the whole concept of being together in a room vanishes. 
 
-Therefore we wanted to integrate cooperation as a paradigm for our game design by creating goals which would have to be performed by \textit{both} users. Furthermore we use the spatial distribution of our tasks-subjects to encourage interaction between the players, rather than having them only perform their own tasks. 
+Therefore we wanted to integrate cooperation as a paradigm for our game design, by assigning tasks to users, who cannot accomplish them.
  
 \subsection{Standing in a defined Area as Login Mechanism}
 \vspace{1mm}
-In typical PC or console games where you login by typing your user name and select start in the menu. Initially we thought about applying this concept by having the users register to the system with an on-floor keyboard and then log in every time they enter the floor. During paper prototyping we encountered that it is really tedious for the user to type in his name, since tapping on small buttons requires precision and having the buttons spread makes them hard to use because it would be necessary to walk over them to get to the destination. 
+Initially we thought about having the users register to the system with an on-floor keyboard and then log in every time they enter the floor. During paper prototyping we encountered that it is really tedious for the user to type in his name, since tapping on small buttons requires precision and having the buttons spread makes them hard to use because it would be necessary to walk over them to get to the destination. 
 
 We decided to create areas in which the users have to stand to start the game. The paper prototyping and the heuristic evaluation showed that this was easily understandable, especially because of the conceptual model of the \textit{beaming area} of spaceships from \textit{Star Trek}. 
 
@@ -236,23 +236,17 @@ We decided to create areas in which the users have to stand to start the game. T
 \end{figure}
 
 
-\subsection{Explaining System Status with Conceptual Models}
-\vspace{1mm}
-As we started designing our game, we used menus and text fields to let the user start a game or change a level. This approach seemed to work out quite well in paper prototyping, since the change of level for example would require some time to reconstruct the floor anyway. But as we started testing our application on the floor the change of status, especially the switching between two levels did not appear natural, since there was no explanation why the controls on the screen changed. 
-
-As a result we added areas with a ladder texture to explain the switch to the next level. Moreover we use beaming platforms as login mechanism instead of a introduction dialog to have a consistent appearence in our whole game 
-
-(hier will ich sagen, dass wir alles was der User sieht durch unsere Welt erklären statt durch Dialoge; wenn jemandem ne bessere Formulierung einfällt gerne austauschen)
-
-\subsection{Seperating the floor into two areas to enforce communication}
-\vspace{1mm}
-One of our basic game principles is communication between the users. To avoid the users from trying to accomplish the task by themselves rather than telling the other teammate what to do, we seperated the floor with the graphic of rifts, where you can see the background of stars. When testing the design with users, we observed that some of them simply jumped over the rifts, because they perceived them as normal obstacles. To prevent this from happening we added yellow do not cross tapes on both sides of the rifts. This ensured that both users only operate their own controls.      
-
 \subsection{Avoiding roles as a Game Mechanic}
 \vspace{1mm}
 Originally we came up with the idea of having different roles for each user, so that each would only be able to carry out certain tasks. As an example, the role of the \textit{captain} was assigned to the first person entering a beaming platform. That user was then the one able to start the game and they would also have special rights to certain widgets and so on. In our paper prototyping process, most of the testers asked about the meaning of those roles and having to explain it to them in more than a sentence showed how this concept was hardly discoverable and would just \textit{mode the user in}.
 
 For these reasons we replaced the concept of roles with more specific tasks.
+
+\subsection{Explaining System Status with Conceptual Models}
+\vspace{1mm}
+As we started designing our game, we used menus and text fields to let the user start a game or change a level. This approach seemed to work out quite well in paper prototyping, since the change of level for example would require some time to reconstruct the floor anyway. But as we started testing our application on the floor the change of status, especially the switching between two levels did not appear natural. 
+
+As a result we added areas with a ladder texture to explain the switch to the next level. Moreover we use beaming platforms as login mechanism instead of a introduction dialog to have a consistent appearence in our whole game (hier will ich sagen, dass wir alles was der User sieht durch unsere Welt erklären statt durch Dialoge; wenn jemandem ne bessere Formulierung einfällt gerne austauschen)
 
 \subsection{Having a distinct Exit Button}
 \vspace{1mm}
