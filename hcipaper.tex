@@ -86,7 +86,7 @@ After looking upon the possibilities of interactive floors and taking into accou
 again - and not just your thumbs.
 
 
-The two to three players' goal is the joint reaching of levels by performing tasks that are randomly given to each player. These tasks can then be carried out by the player himself or he can tell his partners to do it for him since they are closer to the task-subject. 
+The two to three players' goal is the joint reaching of levels by performing tasks that are randomly given to each player. These tasks  then have to be carried out by the player himself or his partner, if the task-subject is not part of that player's controls stack. 
 
 \end{abstract}
 
@@ -96,9 +96,9 @@ The two to three players' goal is the joint reaching of levels by performing tas
 
 \section{Introduction}
 \vspace{1mm}
-With the advent of the \textit{Internet of Things} and thus the rising digital interaction with everything around us, floors will soon become intelligent entities just like our phones are today. 
+With the advent of the \textit{Internet of Things} and thus the rising digital interaction with everything around us, floors might soon become intelligent entities just like our phones are today. 
 
-But next to all the productive things we can now do with our devices, we also want to integrate them into our leisure time. Just like touch screens revolutionised the way we play games, interactive floors will again push the boundaries of the way we think about enjoying ourselves through games.
+But next to all the productive things we can now do with our devices, we also want to integrate them into our leisure time. Just like touch screens revolutionised the way we play games, interactive floors would again push the boundaries of the way we think about enjoying ourselves through games.
 
 To understand what players want from a game, we interviewed J\"org Friedrich, a professional game designer at AAA game development studio \textit{Yager}, Willy Scheibel, a game development lecturer at \textit{HPI}, as well as Theresa Zobel, a representative of our target group, the casual gamer. From these interviews we learned that:
 
@@ -148,7 +148,7 @@ In our sample scenario two users A and B want to play a game of \textit{SpaceRes
 
 
 \begin{enumerate}
-\item Users walk to the \textit{Beaming platforms} and want to start our game.
+\item Users walk to the \textit{beaming platforms} and want to start our game.
 \item To start the game they have to enter one the circle while the label in mid is rotating \textit{Ready?}-Buttons appear and will change the to a \textit{Ready!} after tapping on them.
 \begin{figure}[H]
 \centering
@@ -157,8 +157,8 @@ In our sample scenario two users A and B want to play a game of \textit{SpaceRes
 \label{fig:gamingArea}
 \end{figure}
 
-\item The first player to step on a \textit{Beaming platform} gets a \textit{Start Game}-Button when everybody has tapped on their \textit{Ready?}-Button.
-\item That player can now start the Game by tapping on the \textit{Start Game}-Button. After it the screen will change to our \textit{Gaming Area}.
+\item The first player to step on a \textit{beaming platform} gets a \textit{Start Game}-button when everybody has tapped on their \textit{Ready?}-button.
+\item That player can now start the game by tapping on the \textit{Start Game}-button. After it the screen will change to our \textit{Gaming Area}.
 \end{enumerate}
 
 \begin{figure}[H]
@@ -178,7 +178,7 @@ In our sample scenario two users A and B want to play a game of \textit{SpaceRes
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\columnwidth]{walkthrough/gamingarea}
-\caption{The Gaming Area from the bird's perspective.}
+\caption{The whole \textit{gaming area} from the bird's perspective.}
 \label{fig:beamingArea}
 \end{figure}
 \vspace{2mm}
@@ -205,13 +205,13 @@ In our sample scenario two users A and B want to play a game of \textit{SpaceRes
 \caption{Steps 5 and 6}
 \label{fig:gamingArea}
 \end{figure}
-\item Repeat steps 3. to 6. until a new Level is generated and the players have reached their goal.
+\item Repeat steps 3. to 6. until a new level is generated and the players have reached their goal.
 \end{enumerate}
 
 
 \section{Design}
 \vspace{1mm}
-In this section we will discuss the design choices we made to achieve our goals for \textbf{Communication}, \textbf{Cooperation} and \textbf{Discoverability}.
+In this section we will discuss the design choices we made to achieve our goals for \textbf{communication}, \textbf{cooperation} and \textbf{discoverability}.
 
 \subsection{Cooperation as a Paradigm}
 \vspace{1mm}
@@ -226,7 +226,7 @@ One of our basic game principles is communication between the users. To avoid th
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.99\columnwidth]{dangerarea}
-\caption{The "danger area" which seperates the two control rooms}
+\caption{The \textit{danger area}, which seperates the two control rooms}
 \label{fig:gamingArea}
 \end{figure}
 
@@ -253,20 +253,20 @@ added areas with a ladder texture to explain the switch to the next level. Moreo
 \label{fig:gamingArea}
 \end{figure}
 
-
+\pagebreak
 
 \subsection{Standing in a defined Area as Login Mechanism}
 \vspace{1mm}
 In typical PC or console games users log in by typing their user name and select start in the menu. Initially we thought about applying this concept to the floor by having the users register to the system with an on-floor keyboard and then letting them log in every time they enter the floor. During \textit{paper prototyping} we encountered the issue that it is really tedious for the users to type their names, since tapping on small buttons requires precision and having the buttons spread makes them hard to use because it would be necessary to walk over them to get to the destination. 
-
-We decided to create areas in which the users have to stand to start the game. The paper prototyping and the heuristic evaluation showed that this was easily understandable, especially because of the conceptual model of the \textit{beaming area} of spaceships from \textit{Star Trek}. 
-
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.99\columnwidth]{loginarea}
 \caption{Two users logging in through the \textit{Beaming Platforms}}
 \label{fig:beamingArea}
 \end{figure}
+We decided to create areas in which the users have to stand to start the game. The paper prototyping and the heuristic evaluation showed that this was easily understandable, especially because of the conceptual model of the \textit{beaming area} of spaceships from \textit{Star Trek}. 
+
+
 
 
 \subsection{Having a distinct Exit Button}

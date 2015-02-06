@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.27)  31 JAN 2015 15:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.27)  6 FEB 2015 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -554,12 +554,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.261 
+l.257 
        [3 <./walkthrough/klein/gamingarea5+6.png> <./dangerarea.png> <./ladder.
 png>] <loginarea.png, id=109, 689.57625pt x 388.45125pt>
 File: loginarea.png Graphic file (type png)
  <use loginarea.png>
-Package pdftex.def Info: loginarea.png used on input line 266.
+Package pdftex.def Info: loginarea.png used on input line 263.
 (pdftex.def)             Requested size: 241.54388pt x 136.06665pt.
 
 <ejectbutton.png, id=110, 678.535pt x 300.12125pt>
@@ -567,6 +567,9 @@ File: ejectbutton.png Graphic file (type png)
  <use ejectbutton.png>
 Package pdftex.def Info: ejectbutton.png used on input line 281.
 (pdftex.def)             Requested size: 241.54388pt x 106.83458pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 <ejecting.png, id=111, 1445.4pt x 903.375pt>
 File: ejecting.png Graphic file (type png)
@@ -604,7 +607,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 306.
 Here is how much of TeX's memory you used:
  7360 strings out of 493117
  110211 string characters out of 6135432
- 200343 words of memory out of 5000000
+ 199343 words of memory out of 5000000
  10673 multiletter control sequences out of 15000+600000
  26707 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -627,7 +630,7 @@ ive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/201
 4/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on hcipaper.pdf (4 pages, 3863438 bytes).
+Output written on hcipaper.pdf (4 pages, 6266298 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  121 compressed objects within 2 object streams
